@@ -16,15 +16,16 @@ This is a 1-bit full adder that takes 3 single bit inputs [A, B, Cin] that outpu
 
 Use the truth table below for functionality testing.
 
-Cin	A	B	S	Cout
-0	0	0	0	0
-0	0	1	1	0
-0	1	0	1	0
-0	1	1	0	1
-1	0	0	1	0
-1	0	1	0	1
-1	1	0	0	1
-1	1	1	1	1
+| Cin     | A       | B      | S      | Cout   |
+|---------|---------|--------|--------|--------|
+| 0       | 0       | 0      | 0      | 0      |
+| 0       | 0       | 1      | 1      | 0      |
+| 0       | 1       | 0      | 1      | 0      |
+| 0       | 1       | 1      | 0      | 1      |
+| 1       | 0       | 0      | 1      | 0      |
+| 1       | 0       | 1      | 0      | 1      |
+| 1       | 1       | 0      | 0      | 1      |
+| 1       | 1       | 1      | 1      | 1      |
 
 ## External hardware
 
